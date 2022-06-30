@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Author;
+<?php namespace ConductLab\AuthorsModule\Author;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

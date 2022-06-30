@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\SocialMedia\Contract;
+<?php namespace ConductLab\AuthorsModule\SocialMedia\Contract;
 
 use Anomaly\Streams\Platform\Entry\Contract\EntryInterface;
 

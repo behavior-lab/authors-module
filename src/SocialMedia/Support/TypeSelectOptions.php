@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\AuthorsModule\SocialMedia\Support;
+namespace ConductLab\AuthorsModule\SocialMedia\Support;
 
 use Anomaly\SelectFieldType\SelectFieldType;
 use Illuminate\Support\Str;

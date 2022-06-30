@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Author;
+<?php namespace ConductLab\AuthorsModule\Author;
 
 use Anomaly\Streams\Platform\Entry\EntryObserver;
 

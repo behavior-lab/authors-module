@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\AuthorsModule\Publisher;
+<?php namespace ConductLab\AuthorsModule\Publisher;
 
-use BehaviorLab\AuthorsModule\Publisher\Contract\PublisherRepositoryInterface;
+use ConductLab\AuthorsModule\Publisher\Contract\PublisherRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class PublisherRepository extends EntryRepository implements PublisherRepositoryInterface

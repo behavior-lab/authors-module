@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\AuthorsModule\Publisher;
+<?php namespace ConductLab\AuthorsModule\Publisher;
 
-use BehaviorLab\AuthorsModule\Publisher\Contract\PublisherInterface;
+use ConductLab\AuthorsModule\Publisher\Contract\PublisherInterface;
 use Anomaly\Streams\Platform\Model\Authors\AuthorsPublishersEntryModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

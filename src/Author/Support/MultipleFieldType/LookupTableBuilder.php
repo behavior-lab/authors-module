@@ -1,8 +1,8 @@
 <?php
 
-namespace BehaviorLab\AuthorsModule\Author\Support\MultipleFieldType;
+namespace ConductLab\AuthorsModule\Author\Support\MultipleFieldType;
 
-use BehaviorLab\ThemesModule\Theme\ThemeRepository;
+use ConductLab\ThemesModule\Theme\ThemeRepository;
 use Illuminate\Database\Eloquent\Builder;
 
 /**

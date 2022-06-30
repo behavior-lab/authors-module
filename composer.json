@@ -1,9 +1,9 @@
 {
-    "name": "behavior_lab/authors-module",
+    "name": "conduct_lab/authors-module",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "BehaviorLab\\AuthorsModule\\": "src/"
+            "ConductLab\\AuthorsModule\\": "src/"
         }
     }
 }

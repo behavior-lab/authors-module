@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\AuthorsModule\Http\Controller\Admin;
+<?php namespace ConductLab\AuthorsModule\Http\Controller\Admin;
 
-use BehaviorLab\AuthorsModule\Author\Form\AuthorFormBuilder;
-use BehaviorLab\AuthorsModule\Author\Table\AuthorTableBuilder;
+use ConductLab\AuthorsModule\Author\Form\AuthorFormBuilder;
+use ConductLab\AuthorsModule\Author\Table\AuthorTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class AuthorsController extends AdminController

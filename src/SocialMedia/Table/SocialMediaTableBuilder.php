@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\SocialMedia\Table;
+<?php namespace ConductLab\AuthorsModule\SocialMedia\Table;
 
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 

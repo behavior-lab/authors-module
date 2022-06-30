@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\AuthorsModule\SocialMedia;
+<?php namespace ConductLab\AuthorsModule\SocialMedia;
 
-use BehaviorLab\AuthorsModule\SocialMedia\Contract\SocialMediaInterface;
+use ConductLab\AuthorsModule\SocialMedia\Contract\SocialMediaInterface;
 use Anomaly\Streams\Platform\Model\Authors\AuthorsSocialMediaEntryModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\AuthorsModule\Http\Controller\Admin;
+<?php namespace ConductLab\AuthorsModule\Http\Controller\Admin;
 
-use BehaviorLab\AuthorsModule\Publisher\Form\PublisherFormBuilder;
-use BehaviorLab\AuthorsModule\Publisher\Table\PublisherTableBuilder;
+use ConductLab\AuthorsModule\Publisher\Form\PublisherFormBuilder;
+use ConductLab\AuthorsModule\Publisher\Table\PublisherTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class PublishersController extends AdminController

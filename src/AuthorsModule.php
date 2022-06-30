@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule;
+<?php namespace ConductLab\AuthorsModule;
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 

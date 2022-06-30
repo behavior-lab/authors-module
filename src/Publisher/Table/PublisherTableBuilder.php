@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Publisher\Table;
+<?php namespace ConductLab\AuthorsModule\Publisher\Table;
 
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 

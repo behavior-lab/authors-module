@@ -1,7 +1,7 @@
-<?php namespace BehaviorLab\AuthorsModule\Http\Controller\Admin;
+<?php namespace ConductLab\AuthorsModule\Http\Controller\Admin;
 
-use BehaviorLab\AuthorsModule\SocialMedia\Form\SocialMediaFormBuilder;
-use BehaviorLab\AuthorsModule\SocialMedia\Table\SocialMediaTableBuilder;
+use ConductLab\AuthorsModule\SocialMedia\Form\SocialMediaFormBuilder;
+use ConductLab\AuthorsModule\SocialMedia\Table\SocialMediaTableBuilder;
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class SocialMediaController extends AdminController

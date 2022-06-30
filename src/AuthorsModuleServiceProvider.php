@@ -1,18 +1,18 @@
-<?php namespace BehaviorLab\AuthorsModule;
+<?php namespace ConductLab\AuthorsModule;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
-use BehaviorLab\AuthorsModule\SocialMedia\Contract\SocialMediaRepositoryInterface;
-use BehaviorLab\AuthorsModule\SocialMedia\SocialMediaRepository;
+use ConductLab\AuthorsModule\SocialMedia\Contract\SocialMediaRepositoryInterface;
+use ConductLab\AuthorsModule\SocialMedia\SocialMediaRepository;
 use Anomaly\Streams\Platform\Model\Authors\AuthorsSocialMediaEntryModel;
-use BehaviorLab\AuthorsModule\SocialMedia\SocialMediaModel;
-use BehaviorLab\AuthorsModule\Publisher\Contract\PublisherRepositoryInterface;
-use BehaviorLab\AuthorsModule\Publisher\PublisherRepository;
+use ConductLab\AuthorsModule\SocialMedia\SocialMediaModel;
+use ConductLab\AuthorsModule\Publisher\Contract\PublisherRepositoryInterface;
+use ConductLab\AuthorsModule\Publisher\PublisherRepository;
 use Anomaly\Streams\Platform\Model\Authors\AuthorsPublishersEntryModel;
-use BehaviorLab\AuthorsModule\Publisher\PublisherModel;
-use BehaviorLab\AuthorsModule\Author\Contract\AuthorRepositoryInterface;
-use BehaviorLab\AuthorsModule\Author\AuthorRepository;
+use ConductLab\AuthorsModule\Publisher\PublisherModel;
+use ConductLab\AuthorsModule\Author\Contract\AuthorRepositoryInterface;
+use ConductLab\AuthorsModule\Author\AuthorRepository;
 use Anomaly\Streams\Platform\Model\Authors\AuthorsAuthorsEntryModel;
-use BehaviorLab\AuthorsModule\Author\AuthorModel;
+use ConductLab\AuthorsModule\Author\AuthorModel;
 use Illuminate\Routing\Router;
 
 class AuthorsModuleServiceProvider extends AddonServiceProvider
@@ -52,15 +52,15 @@ class AuthorsModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $routes = [
-        'admin/authors/social_media'           => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@index',
-        'admin/authors/social_media/create'    => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@create',
-        'admin/authors/social_media/edit/{id}' => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@edit',
-        'admin/authors/publishers'           => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\PublishersController@index',
-        'admin/authors/publishers/create'    => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\PublishersController@create',
-        'admin/authors/publishers/edit/{id}' => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\PublishersController@edit',
-        'admin/authors'           => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\AuthorsController@index',
-        'admin/authors/create'    => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\AuthorsController@create',
-        'admin/authors/edit/{id}' => 'BehaviorLab\AuthorsModule\Http\Controller\Admin\AuthorsController@edit',
+        'admin/authors/social_media'           => 'ConductLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@index',
+        'admin/authors/social_media/create'    => 'ConductLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@create',
+        'admin/authors/social_media/edit/{id}' => 'ConductLab\AuthorsModule\Http\Controller\Admin\SocialMediaController@edit',
+        'admin/authors/publishers'           => 'ConductLab\AuthorsModule\Http\Controller\Admin\PublishersController@index',
+        'admin/authors/publishers/create'    => 'ConductLab\AuthorsModule\Http\Controller\Admin\PublishersController@create',
+        'admin/authors/publishers/edit/{id}' => 'ConductLab\AuthorsModule\Http\Controller\Admin\PublishersController@edit',
+        'admin/authors'           => 'ConductLab\AuthorsModule\Http\Controller\Admin\AuthorsController@index',
+        'admin/authors/create'    => 'ConductLab\AuthorsModule\Http\Controller\Admin\AuthorsController@create',
+        'admin/authors/edit/{id}' => 'ConductLab\AuthorsModule\Http\Controller\Admin\AuthorsController@edit',
     ];
 
     /**
@@ -69,7 +69,7 @@ class AuthorsModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $middleware = [
-        //BehaviorLab\AuthorsModule\Http\Middleware\ExampleMiddleware::class
+        //ConductLab\AuthorsModule\Http\Middleware\ExampleMiddleware::class
     ];
 
     /**
@@ -79,7 +79,7 @@ class AuthorsModuleServiceProvider extends AddonServiceProvider
      */
     protected $groupMiddleware = [
         //'web' => [
-        //    BehaviorLab\AuthorsModule\Http\Middleware\ExampleMiddleware::class,
+        //    ConductLab\AuthorsModule\Http\Middleware\ExampleMiddleware::class,
         //],
     ];
 
@@ -96,8 +96,8 @@ class AuthorsModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $listeners = [
-        //BehaviorLab\AuthorsModule\Event\ExampleEvent::class => [
-        //    BehaviorLab\AuthorsModule\Listener\ExampleListener::class,
+        //ConductLab\AuthorsModule\Event\ExampleEvent::class => [
+        //    ConductLab\AuthorsModule\Listener\ExampleListener::class,
         //],
     ];
 
@@ -107,7 +107,7 @@ class AuthorsModuleServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $aliases = [
-        //'Example' => BehaviorLab\AuthorsModule\Example::class
+        //'Example' => ConductLab\AuthorsModule\Example::class
     ];
 
     /**

@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Publisher;
+<?php namespace ConductLab\AuthorsModule\Publisher;
 
 use Anomaly\Streams\Platform\Entry\EntryCriteria;
 

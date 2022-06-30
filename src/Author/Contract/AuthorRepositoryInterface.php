@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Author\Contract;
+<?php namespace ConductLab\AuthorsModule\Author\Contract;
 
 use Anomaly\Streams\Platform\Entry\Contract\EntryRepositoryInterface;
 

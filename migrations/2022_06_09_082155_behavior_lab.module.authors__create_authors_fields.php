@@ -25,7 +25,7 @@ class BehaviorLabModuleAuthorsCreateAuthorsFields extends Migration
             'type' => 'anomaly.field_type.select',
             'config' => [
                 'mode' => 'dropdown',
-                "handler" => \BehaviorLab\AuthorsModule\Author\Support\TypeSelectOptions::class
+                "handler" => \ConductLab\AuthorsModule\Author\Support\TypeSelectOptions::class
             ],
         ],
         'job_title' => 'anomaly.field_type.text',
@@ -50,7 +50,7 @@ class BehaviorLabModuleAuthorsCreateAuthorsFields extends Migration
         'social_media' => [
             "type" => "anomaly.field_type.repeater",
             "config" => [
-                "related" => \BehaviorLab\AuthorsModule\SocialMedia\SocialMediaModel::class,
+                "related" => \ConductLab\AuthorsModule\SocialMedia\SocialMediaModel::class,
                 "add_row" => "dk_behavior.module.checklists::button.add_checklist_section",
             ]
         ],
@@ -58,7 +58,7 @@ class BehaviorLabModuleAuthorsCreateAuthorsFields extends Migration
             'type' => 'anomaly.field_type.select',
             'config' => [
                 'mode' => 'dropdown',
-                "handler" => \BehaviorLab\AuthorsModule\SocialMedia\Support\TypeSelectOptions::class
+                "handler" => \ConductLab\AuthorsModule\SocialMedia\Support\TypeSelectOptions::class
             ],
         ],
         'active' => [

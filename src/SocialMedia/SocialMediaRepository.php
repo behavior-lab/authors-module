@@ -1,6 +1,6 @@
-<?php namespace BehaviorLab\AuthorsModule\SocialMedia;
+<?php namespace ConductLab\AuthorsModule\SocialMedia;
 
-use BehaviorLab\AuthorsModule\SocialMedia\Contract\SocialMediaRepositoryInterface;
+use ConductLab\AuthorsModule\SocialMedia\Contract\SocialMediaRepositoryInterface;
 use Anomaly\Streams\Platform\Entry\EntryRepository;
 
 class SocialMediaRepository extends EntryRepository implements SocialMediaRepositoryInterface

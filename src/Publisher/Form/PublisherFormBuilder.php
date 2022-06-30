@@ -1,4 +1,4 @@
-<?php namespace BehaviorLab\AuthorsModule\Publisher\Form;
+<?php namespace ConductLab\AuthorsModule\Publisher\Form;
 
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 

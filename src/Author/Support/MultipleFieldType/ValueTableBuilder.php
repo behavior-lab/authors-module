@@ -1,6 +1,6 @@
 <?php
 
-namespace BehaviorLab\AuthorsModule\Author\Support\MultipleFieldType;
+namespace ConductLab\AuthorsModule\Author\Support\MultipleFieldType;
 
 /**
  * Class ValueTableBuilder
