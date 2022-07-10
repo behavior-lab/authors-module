@@ -51,7 +51,6 @@ class BehaviorLabModuleAuthorsCreateAuthorsFields extends Migration
             "type" => "anomaly.field_type.repeater",
             "config" => [
                 "related" => \ConductLab\AuthorsModule\SocialMedia\SocialMediaModel::class,
-                "add_row" => "dk_behavior.module.checklists::button.add_checklist_section",
             ]
         ],
         'some_type' => [
